@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+a {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    justify-content: center;
+    color: black;
+}
+
 #a {
     margin: 0;
     background-color: rgb(16, 189, 25);
@@ -19,8 +27,6 @@
 
 #example1 {
     background-color: rgb(8, 7, 7);
-    background-position: left top, right top;
-    background-repeat: no-repeat, repeat;
     padding: 150px;
 }
 
@@ -32,8 +38,6 @@
 
 .nai {
     width: 100%;
-    height: 30px;
-    text-align: center;
     border-right: 2px solid black;
 }
 
@@ -85,4 +89,30 @@ input[type=reset] {
 ul {
     display: flex;
     flex-direction: row;
+}
+
+@media(max-width: 780px) {
+
+    .na {
+        background-color: rgb(232, 3, 3);
+        position: initial;
+    }
+
+    ul {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+
+
+    .nai {
+
+        border-right: none;
+        border-bottom: 2px solid black;
+    }
+
+    #example1 {
+        padding: 25px;
+    }
+
 }
