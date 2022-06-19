@@ -3,12 +3,25 @@
     padding: 0;
 }
 
+#a {
+    margin: 0;
+    background-color: rgb(16, 189, 25);
+
+    padding: 150px;
+}
+
+#d {
+    margin: 0;
+    background-color: darkblue;
+    padding: 150px;
+
+}
+
 #example1 {
-    background-color: cornflowerblue;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png.gif), url(paper.gif);
+    background-color: rgb(4, 4, 4);
     background-position: left top, right top;
     background-repeat: no-repeat, repeat;
-    padding: 100px;
+    padding: 150px;
 }
 
 .flex-container {
@@ -21,5 +34,50 @@
     background-color: #f1f1f1;
     margin: 0;
     padding: 15px;
-    font-size: 30px;
+    font-size: 15px;
+}
+
+.center {
+    padding: 100px;
+    background-color: black;
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 5px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 100px;
+}
+
+input[type=text] {
+    border-radius: 5px;
+}
+
+input[type=email] {
+    border-radius: 5px;
+}
+
+input[type=number] {
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    width: 5%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input[type=reset] {
+    width: 5%;
+    height: 25px;
+    border-radius: 5px;
 }
