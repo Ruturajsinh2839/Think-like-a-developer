@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#example1 {
+    background-color: cornflowerblue;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png.gif), url(paper.gif);
+    background-position: left top, right top;
+    background-repeat: no-repeat, repeat;
+    padding: 100px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: row;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 15px;
+    font-size: 30px;
+}
